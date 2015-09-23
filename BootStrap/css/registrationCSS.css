@@ -1,0 +1,49 @@
+/*warning button and footer copied from bootstrap's css files*/
+
+body {
+    background-color: white;
+}
+
+h3 {
+    color: #FF8000;
+    font-size: 26px;
+    font-family: sans-serif;
+    margin-left: 10px; 
+}
+
+input[type="reset"] {
+   background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);
+   background-image:      -o-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#eb9316));
+   background-image:         linear-gradient(to bottom, #f0ad4e 0%, #eb9316 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', GradientType=0);
+   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+   background-repeat: repeat-x;
+   border-color: #e38d13;
+   border-radius: 10px; 
+   font-size: 18px;
+}
+
+
+input[type="submit"] {
+   background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);
+   background-image:      -o-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#eb9316));
+   background-image:         linear-gradient(to bottom, #f0ad4e 0%, #eb9316 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', GradientType=0);
+   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+   background-repeat: repeat-x;
+   border-color: #e38d13;
+   border-radius: 10px; 
+   font-size: 18px;
+}
+
+label {
+    margin-left: 10px;
+    font-family: sans-serif;
+    /*font-weight: bold;*/
+    color: orange;
+    font-size: 24px;
+}
+
+

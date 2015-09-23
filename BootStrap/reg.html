@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head> 
+	<title> Registration Form with Validation></title>
+	<meta charset ="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/registrationCSS.css"> <!--includes bootstrap css sytle elements-->
+	<script type="text/javascript" src ="js/validator.js">
+	</script>
+
+</head>
+<body background="images/carousel-texture.jpg">
+	<h3>
+		Register Below 
+	</h3>
+    <form id = "myForm"  action = "" >
+		<p>
+			<label>
+				First Name: <input type= "text" id="firstName" />
+			</label>
+			<br /><br />
+
+			<label>
+				Last Name: <input type= "text" id="lastName" />
+			</label>
+			<br /><br />
+
+			<label>Gender</label>  <br /><br />
+			 <label>
+				Male <input type= "radio" id="gender" /> Female <input type= "radio" id="gender" />
+			</label>
+            <br /><br />
+            
+            <label>
+				My email address is: <input type= "text" id="email" />
+			</label>
+            <br /><br />
+   
+          	<label> Enter a new password: 
+              <input type = "password" id = "initial" />   
+          	</label>
+          	<br /><br />
+ 
+          	<label> Confirm password: 
+              <input type = "password"  id = "second" />
+          	</label>
+          	<br /><br />
+          
+          	<input type= "reset" id="reset"/> 
+		  	<input type= "submit" id="submit"/> <!--Bootstrap colored buttons(warning button) to match the color of the headers-->
+        
+	</form>
+	<script type="text/javascript" src= "js/validatorr.js"></script>
+</body>
+<footer>
+</footer>
+</html>
