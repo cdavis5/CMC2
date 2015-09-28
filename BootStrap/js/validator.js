@@ -9,9 +9,19 @@ function chkFields() {
     //check if the intital email mataches the second email
     //check if the initial password matches the second password
     if ((init.value == "") || (initE.value == "")){
-    alert("THERE WAS A PROBLEM WITH YOUR REQUEST! \n" +
+    /* alert("THERE WAS A PROBLEM WITH YOUR REQUEST! \n" +
           "Please enter your password. \n" +
           "Please check that your passwords match and try again. \n");   
+    */
+
+
+    error = document.getElementById("errorMessage");
+        txt = document.createTextNode("THERE WAS A PROBLEM WITH YOUR REQUEST! \n" +
+              "Please enter your password. \n" +
+              "Please check that your e-mail addresses match and try again. \n" +
+              "Please check that your passwords match and try again.");
+        error.innerText = txt.textContent;
+
     return false; 
   }
     else
