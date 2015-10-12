@@ -1,19 +1,8 @@
 /*warning button and footer copied from bootstrap's css files*/
 
-body {
-    background-color: white;
-}
-
 span {
 color: red;
 font-size: 18px;
-}
-
-h3 {
-    color: #FF8000;
-    font-size: 26px;
-    font-family: sans-serif;
-    margin-left: 10px; 
 }
 
 input[type="reset"] {
@@ -43,12 +32,12 @@ input[type="submit"] {
    font-size: 18px;
 }
 
-label {
-    margin-left: 10px;
-    font-family: sans-serif;
-    /*font-weight: bold;*/
-    color: orange;
-    font-size: 24px;
+h1{
+    color:white;
+    margin-bottom:0;
+    text-align: center;
 }
+
+
 
 
